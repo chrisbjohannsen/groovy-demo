@@ -28,8 +28,16 @@
 
 # "temporary" build files
 /target
+**/build
 
 # Idea crap
 **.iml
 **/.idea
 **/out
+**/.ipr
+**/.iws
+
+# gradle
+**/.gradle
+**/gradle/warpper
+
