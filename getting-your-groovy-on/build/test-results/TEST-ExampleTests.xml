@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExampleTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2014-10-16T03:16:14" hostname="Christophers-MacBook-Pro.local" time="0.269">
+  <properties/>
+  <testcase name="testMOPMethodInterception" classname="ExampleTests" time="0.176"/>
+  <testcase name="testMapCollect" classname="ExampleTests" time="0.042"/>
+  <testcase name="testMapEach" classname="ExampleTests" time="0.03"/>
+  <testcase name="testSimpleClosure" classname="ExampleTests" time="0.012"/>
+  <testcase name="testMOPMetaclassMethodInjectionOnPOJO" classname="ExampleTests" time="0.008"/>
+  <system-out><![CDATA[Chris is a fine Footman at Downton Abbey
+Seth is a fine Butler at Downton Abbey
+Aaron is a fine Lord's Valet at Downton Abbey
+Jason is a fine First Footman at Downton Abbey
+Tom is a fine Lord at Downton Abbey
+Palle is a fine Valet at Downton Abbey
+Hello from iteration 0
+Hello from iteration 1
+Hello from iteration 2
+Hello from iteration 3
+Hello from iteration 4
+Hello from iteration 5
+Hello from iteration 6
+Hello from iteration 7
+Hello from iteration 8
+Hello from iteration 9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

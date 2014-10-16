@@ -7,11 +7,6 @@ class ExampleTests extends GroovyTestCase
 {
     private workers
 
-    void setup()
-    {
-
-    }
-
     void testSimpleClosure()
     {
         10.times(){ println "Hello from iteration $it"}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SpockTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2014-10-16T03:16:14" hostname="Christophers-MacBook-Pro.local" time="0.032">
+  <properties/>
+  <testcase name="Groovy Map.collect example" classname="SpockTests" time="0.018"/>
+  <testcase name="Groovy Map.each example" classname="SpockTests" time="0.009"/>
+  <testcase name="Groovy times example" classname="SpockTests" time="0.002"/>
+  <testcase name="Groovy Step example" classname="SpockTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
