@@ -23,3 +23,7 @@ gradle/
 **/.iml
 **/*.ipr
 **/*.iws
+
+# macos
+.DS_Store
+
