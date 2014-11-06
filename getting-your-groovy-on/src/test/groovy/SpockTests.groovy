@@ -8,20 +8,20 @@ class SpockTests extends Specification {
     def "Groovy Map.collect example"()
     {
         setup:
-        def workers = [Chris: "Footman", Seth: "Butler", Aaron: "Lord's Valet", Jason: "First Footman", Tom: "Lord", Palle: "Valet"]
+        def workers = [William: "Footman", Charlie: "Butler", John: "Lord's Valet", Thomas: "First Footman", Robert: "Lord", Tom: "Chauffer"]
 
         when:
         def actual = workers.collect() { name, occupation -> "$name is a fine $occupation at Downton Abbey" }
 
         then:
         actual.size() == 6
-        actual[0] == "Chris is a fine Footman at Downton Abbey"
+        actual[0] == "William is a fine Footman at Downton Abbey"
     }
 
     def "Groovy Map.each example"()
     {
         setup:
-        def workers = [Chris: "Footman", Seth: "Butler", Aaron: "Lord's Valet", Jason: "First Footman", Tom: "Lord", Palle: "Valet"]
+        def workers = [William: "Footman", Charlie: "Butler", John: "Lord's Valet", Thomas: "First Footman", Robert: "Lord", Tom: "Chauffer"]
         def actual = []
         when:
 
@@ -29,7 +29,7 @@ class SpockTests extends Specification {
 
         then:
         actual.size() == 6
-        actual[0] == "Chris is a fine Footman at Downton Abbey"
+        actual[0] == "William is a fine Footman at Downton Abbey"
     }
 
     def "Groovy times example"()
