@@ -41,3 +41,5 @@
 **/.gradle
 **/gradle/warpper
 
+# OSX
+.DS_Store
