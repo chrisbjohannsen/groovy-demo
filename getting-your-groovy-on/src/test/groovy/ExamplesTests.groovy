@@ -6,6 +6,11 @@ class ExampleTests extends GroovyTestCase
 {
     private workers = [William: "Footman", Charlie: "Butler", John: "Lord's Valet", Thomas: "First Footman", Robert: "Lord", Tom: "Chauffer"]
 
+    void testFailure()
+    {
+        fail("This test is broken")
+    }
+
     /* Basic Closure Tests */
     void testSimpleClosure()
     {
